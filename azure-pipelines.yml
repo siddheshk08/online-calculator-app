@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'devops-portal'
+    azureSubscription: 'Devopsazure'
     appType: 'webAppLinux'
-    appName: 'prodappairindia'
+    appName: 'skcloudprodapp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
